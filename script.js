@@ -16,7 +16,7 @@
 var generateBtn = document.querySelector('#generate')
 var output = document.querySelector('#password')
 function showPassword(password) {
-    output.innerText = password;
+    output.innerText = password.join('');
 }
 
 function generatePassword(optionsObj) {
